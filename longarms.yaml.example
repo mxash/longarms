@@ -1,0 +1,4 @@
+device: "/dev/input/event1" # Path to the evdev device to listen to. Easily findable via running sudo evtest at the moment.
+tripletap: "somecommand" # Command to be run on a tripletap
+quadtap: "somecommand" # Command to be run on a quadtap
+quinttap: "somecommand" # Command to be run on a quinttap
