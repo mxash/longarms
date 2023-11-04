@@ -5,7 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	evdev "github.com/gvalkov/golang-evdev"
+	evdev "github.com/grafov/evdev"
+
 	"github.com/spf13/viper"
 )
 
