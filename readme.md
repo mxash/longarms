@@ -8,4 +8,10 @@ Longarms looks for config files in ```$HOME/.config/longarms```. Refer to [longa
 
 ## Installation
 
-Currently installation is offered simply by pulling the GitHub repo and running ```go install```. This requires your $GOPATH environment variable to be properly set up so that $GOPATH/bin is in $PATH. I may offer packages for various distros in the future, but don't currently have the tooling for this.
+### Debian/Ubuntu based distros
+
+Installation is possible using our .deb files on our [releases page](https://github.com/mxash/longarms/releases).
+
+### Other Distributions
+
+There's multiple options to install with other distros, you could simply run ```go install``` if you have a Go environment setup. Otherwise you can add the binary from our tar.gz packages on our [releases page](https://github.com/mxash/longarms/releases) into a folder in your PATH.
